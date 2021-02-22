@@ -1,0 +1,28 @@
+use CollegeDB
+db.College.insert
+(
+	{
+		"Collegeid" : 1,
+		"CollegeName" : "ABC"
+		"Yearfounded":1996
+		"City":"Chennai"
+		"State":"TamilNadu"
+		"Country":"India"
+		"Noofstudents":2000
+		"Courses":["Computer Science","Electronics","IT"]
+
+)
+
+use StudentDB
+db.Student.insert
+(
+	{
+		"StudentId": 12,
+		"StudentName":"Mayank"
+		"Year of batch":2014
+		"College_Id":1
+		"Skills": ["C++", "Java"," C"]
+
+)
+
+
